@@ -336,6 +336,27 @@ audio::-webkit-media-controls-enclosure {
   }
 }
 
+/*--------------------------- 19 --- Foto ---------------------------*/
+.photobox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  height: 50vh;
+}
+
+#webcam-stream {
+  height: 100%;
+  padding: 1rem 1rem 2rem 1rem;
+  background-color: white;
+}
+
+#photo-preview {
+  height: 100%;
+  background-color: white;
+}
+
 /*--------------------------- MOBILE ---------------------------*/
 
 @media (max-width: 768px) {

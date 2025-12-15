@@ -12,7 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>19</title>
   </head>
   <body>
     <a href="index.html">Zurück</a>
@@ -55,6 +55,28 @@
         ></audio>
       </div>
     </div>
+
+    <div class="photobox-container">
+      <video id="webcam-stream" autoplay playsinline></video>
+      <h1 id="countdown-overlay" style="display: none"></h1>
+      <a class="button" id="capture-button">📸 Foto aufnehmen</a>
+      <canvas
+        id="photo-canvas"
+        width="640"
+        height="480"
+        style="display: none"
+      ></canvas>
+      <img id="photo-preview" style="display: none" alt="Aufgenommenes Bild" />
+      <a
+        class="button"
+        id="download-link"
+        style="display: none"
+        download="adventskalender_selfie.png"
+      >
+        download
+      </a>
+    </div>
     <script src="script.js"></script>
+    <script src="foto.js"></script>
   </body>
 </html>

@@ -357,6 +357,15 @@ audio::-webkit-media-controls-enclosure {
   background-color: white;
 }
 
+/*--------------------------- 20 --- countdown ---------------------------*/
+
+.countdown-container {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*--------------------------- MOBILE ---------------------------*/
 
 @media (max-width: 768px) {

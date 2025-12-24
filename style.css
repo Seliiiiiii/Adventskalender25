@@ -366,6 +366,30 @@ audio::-webkit-media-controls-enclosure {
   align-items: center;
 }
 
+/*--------------------------- 24 --- geschenk ---------------------------*/
+
+.geschenk-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.geschenke-container {
+  font-family: "Arial Narrow";
+  font-style: italic;
+}
+
+.geschenke {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+
+  > a > h2 {
+    padding: 1rem;
+  }
+}
+
 /*--------------------------- MOBILE ---------------------------*/
 
 @media (max-width: 768px) {
